@@ -43,7 +43,7 @@ export default function Gallery() {
             <ul className="flex flex-col ">
                 {gold.map((item) => (
                     <li key={item.id}>
-                        <Image src={item.src} width={2888} height={1626} alt="Pic" className="w-full" />
+                        <Image src={item.src} width={2888} height={1626} alt="Pic" className="w-full" loading="lazy"/>
                     </li>
                 ))}
             </ul>
@@ -53,7 +53,7 @@ export default function Gallery() {
             <ul className="flex flex-col ">
                 {watch.map((item) => (
                     <li key={item.id}>
-                        <Image src={item.src} width={2888} height={1626} alt="Pic" className="w-full" />
+                        <Image src={item.src} width={2888} height={1626} alt="Pic" className="w-full" loading="lazy" />
                     </li>
                 ))}
             </ul>
@@ -63,7 +63,7 @@ export default function Gallery() {
             <ul className="flex flex-col ">
                 {arch.map((item) => (
                     <li key={item.id}>
-                        <Image src={item.src} width={2888} height={1626} alt="Pic" className="w-full" />
+                        <Image src={item.src} width={2888} height={1626} alt="Pic" className="w-full" loading="lazy" />
                     </li>
                 ))}
             </ul>
@@ -73,7 +73,7 @@ export default function Gallery() {
             <ul className="flex flex-col ">
                 {other.map((item) => (
                     <li key={item.id}>
-                        <Image src={item.src} width={2888} height={1626} alt="Pic" className="w-full" />
+                        <Image src={item.src} width={2888} height={1626} alt="Pic" className="w-full" loading="lazy" />
                     </li>
                 ))}
             </ul>
