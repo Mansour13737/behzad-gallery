@@ -37,7 +37,7 @@ const other = [
 export default function Gallery() {
     return (
         <div className="flex flex-col w-full h-screen">
-            <div className="w-full py-6 text-[#be9858] font-display text-center text-[30px] font-light bg-gray-700 ">
+            <div id="gold" className="w-full py-6 text-[#be9858] font-display text-center text-[30px] font-light bg-gray-700 ">
                 <span>GOLD & JEWELRY</span>
             </div>
             <ul className="flex flex-col ">
@@ -47,7 +47,7 @@ export default function Gallery() {
                     </li>
                 ))}
             </ul>
-            <div className="w-full py-6 tracking-wider text-[#be9858] font-display text-center text-[30px] font-light bg-gray-700 ">
+            <div id="watch" className="w-full py-6 tracking-wider text-[#be9858] font-display text-center text-[30px] font-light bg-gray-700 ">
                 <span>WATCH</span>
             </div>
             <ul className="flex flex-col ">
@@ -57,7 +57,7 @@ export default function Gallery() {
                     </li>
                 ))}
             </ul>
-            <div className="w-full py-6 tracking-wider text-[#be9858] font-display text-center text-[30px] font-light bg-gray-700 ">
+            <div id="architecture" className="w-full py-6 tracking-wider text-[#be9858] font-display text-center text-[30px] font-light bg-gray-700 ">
                 <span>ARCHITECTURE</span>
             </div>
             <ul className="flex flex-col ">
