@@ -11,7 +11,7 @@ export default function Home() {
       <span className="text-white/90 tracking-wider absolute bottom-32 font-display text-center text-[14px] left-3 font-light">GET IN TOUCH</span>
       <ul className="flex gap-2 absolute left-3 bottom-24">
         <Link href={'tel:+989120687097'}>
-          <Image src={'/call.svg'} width={24} height={24} alt='pic' loading="lazy"/>
+          <Image src={'/call.svg'} width={24} height={24} alt='pic' priority/>
         </Link>
         <Link href={"mailto:mansournosrati69@gmail.com"}>
           <Image src={'/message.svg'} width={24} height={24} alt='pic' loading="lazy"/>
