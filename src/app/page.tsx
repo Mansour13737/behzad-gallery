@@ -13,7 +13,7 @@ export default function Home() {
         <Link href={'tel:+989120687097'}>
           <Image src={'/call.svg'} width={24} height={24} alt='pic' priority/>
         </Link>
-        <Link href={"mailto:mansournosrati69@gmail.com"}>
+        <Link href={"mailto:behbiin@gmail.com"}>
           <Image src={'/message.svg'} width={24} height={24} alt='pic' loading="lazy"/>
         </Link>
         <Link href={'https://www.instagram.com/behbiin?igsh=MTE5bjBuYnlrb210cw=='}>
